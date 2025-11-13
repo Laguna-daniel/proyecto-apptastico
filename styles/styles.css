@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #555;
+}
+
+/* Header */
+header {
+  background: #4a5a6a;
+  padding: 20px 0;
+  color: white;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a.active {
+  background: #657b8f;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+/* Hero */
+.hero {
+  background: #506170;
+  color: white;
+  padding: 60px 0;
+}
+.hero-container {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.hero-img {
+  width: 350px;
+}
+.hero-text {
+  margin-left: 50px;
+}
+.hero-text h2 {
+  font-size: 40px;
+}
+.hero-text span {
+  color: #fff;
+  font-weight: bold;
+}
+.hero-text p {
+  line-height: 1.6;
+}
+.buttons {
+  margin-top: 20px;
+}
+.btn {
+  background: #5b8dd8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.btn.secondary {
+  background: transparent;
+  border: 1px solid white;
+  margin-left: 10px;
+}
+
+/* Brands */
+.brands {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 20px 0;
+}
+.brands img {
+  margin: 0 30px;
+  opacity: 0.6;
+}
+
+/* Services */
+.services {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 0;
+}
+.service {
+  width: 280px;
+  margin: 0 20px;
+}
+.service img {
+  width: 60px;
+}
+.service h3 {
+  color: #4a5a6a;
+}
+.service p {
+  font-size: 14px;
+  color: #777;
+}
+.service .btn {
+  margin-top: 10px;
+}
+
+/* Projects */
+.projects {
+  text-align: center;
+  padding: 60px 0;
+}
+.projects h3 {
+  color: #4a5a6a;
+  margin-bottom: 20px;
+}
+.project-gallery img {
+  width: 220px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+/* Blog and Twitter */
+.bottom {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin: auto;
+  padding: 60px 0;
+}
+.blog, .twitter {
+  width: 45%;
+  margin: 0 20px;
+}
+.blog h4, .twitter h4 {
+  color: #4a5a6a;
+}
+.entry {
+  margin-bottom: 20px;
+}
+.entry img {
+  width: 60px;
+  float: left;
+  margin-right: 10px;
+}
+.entry h5 {
+  margin: 0;
+  font-size: 16px;
+}
+.entry p {
+  font-size: 14px;
+  color: #777;
+}
+.twitter p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Footer */
+footer {
+  background: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  color: #777;
+}
+.social img {
+  width: 24px;
+  margin: 0 5px;
+}
